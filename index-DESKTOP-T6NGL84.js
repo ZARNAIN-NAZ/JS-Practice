@@ -1112,9 +1112,10 @@
 // var number = parseFloat(prompt("Enter a number:"));
 // var absoluteValue = Math.abs(number);
 // document.write("<p>Absolute value of " + number + " is " + absoluteValue + "</p>");
-//Q4
+// //Q4
+// function rollDice(){
+//     var dicevalue = Math.floor(Math.random()*6)+1;
+//     console.log("dice value"+dicevalue)
 
-
-
-
-// main abcd
+// }
+// rollDice();
