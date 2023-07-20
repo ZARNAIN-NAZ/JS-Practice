@@ -141,16 +141,16 @@
 // console.log(myFunc("freecodecamp.com" , 'z'));
 
 //Q14
-function calcCircumference(radius){
-let res = (Math.pi *radius)*2
-console.log( "The circumference is "+res+".")
-}
-function calcArea(radius){
-    let max = (Math.pi*radius)*radius;
-    console.log("the area is"+max)
-}
-calcCircumference(9);
-calcArea(89)
+// function calcCircumference(radius){
+// let res = (Math.pi *radius)*2
+// console.log( "The circumference is "+res+".")
+// }
+// function calcArea(radius){
+//     let max = (Math.pi*radius)*radius;
+//     console.log("the area is"+max)
+// }
+// calcCircumference(9);
+// calcArea(89)
 
 
 
