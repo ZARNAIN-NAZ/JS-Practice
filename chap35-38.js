@@ -89,3 +89,72 @@
 // console.log(counting(7,3))
 
 //Q8
+// function outer(base , perp){
+// function inner(num){
+//     return num*num;
+// }
+// const bsquare = inner(base);
+// const perpendicularSquare = inner(perp);
+// const hSquare  =bsquare  + perpendicularSquare ;
+// const Hyp  = Math.sqrt(hSquare);
+// return Hyp
+// }
+// console.log(outer(3,4))
+
+//Q9
+// functio[n areaOfReactangle(width , height){
+// let a = width * height;
+// return a ;
+// }
+// console.log(areaOfReactangle(8,9));
+
+//Q 11
+// function myFunc(str){
+//     let convert = str.toUpperCase()
+// return convert;
+// }
+// console.log(myFunc("hello i am zarnain"))
+
+//Q12
+// function myFunc(str){
+//     var arr1 =str.match(/\w[a-z]{0,}/gi);
+//     var result = arr1[0];
+//     for(let i  = 1; i<arr1.length ; i++){
+//         if(result.length < arr1[i].length){
+//             result = arr1[i]
+//         }
+//     }
+//     return result ;
+// }
+// console.log(myFunc("web development is a good"))
+
+//Q13
+// function myFunc(str , letter){
+// let letterValue = 0;
+// for(let i=0; i<str.length;i++){
+//     if(str.charAt(i) ===letter)
+// {
+//     letterValue =letterValue+1
+// }}
+// return letterValue;
+// }
+// console.log(myFunc("freecodecamp.com" , 'z'));
+
+//Q14
+function calcCircumference(radius){
+let res = (Math.pi *radius)*2
+console.log( "The circumference is "+res+".")
+}
+function calcArea(radius){
+    let max = (Math.pi*radius)*radius;
+    console.log("the area is"+max)
+}
+calcCircumference(9);
+calcArea(89)
+
+
+
+
+
+
+
