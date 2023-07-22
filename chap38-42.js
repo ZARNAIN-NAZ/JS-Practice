@@ -54,9 +54,100 @@
 // console.log(index("sbhhjh","s"))
 
 // ===============================================Question 06===============================
-function dlt(vowels){
-    const sen= vowels.delete(vowels)
-    return sen 
-}
-console.log("acha to hum chlte hai")
+// function dlt(vowels){
+//     const reg = /[aeiou]/gi;
+//     const res = vowels.replace(reg,"")
+//     return res;
+// }
+// console.log(dlt("these are vowels "))
+
+// ===============================================Question 07===============================
+// function success(text){
+//     const case1  = text.toLowerCase()
+// let count =0;
+// for(let i=0; i<case1.length -1;i++){
+//     const val1 = case1[i];
+//     const val2 = case1[i+1];
+//     switch(val1){
+//         case"a":case "e":case "i": case"o" :case "u":
+//         switch(val2){
+//             case"a":case "e":case "i": case"o" :case "u":
+//          count++
+//          break;
+//          default:
+//             break;
+//         }
+//         break;
+//         default:
+//            break;
+//     }
+// }
+// return count;
+// }
+// console.log(success("“Pleases read this application and give me gratuity”Such occurrences are ea, ea, ui."))
+// ===============================================Question 08===============================
+
+// function meter (km){
+ 
+//     return km*1000;
+// }
+//     function feet(km){
+       
+//         return km * 3280.84;
+//     }
+//     function inch(km){
+       
+//         return km *  39370.1;
+//     } function cm(km){
+       
+//         return km * 10000;
+//     }
+//     console.log(meter(78))
+//     console.log(feet(78))
+//     console.log(inch(78))
+//     console.log(cm(78))
+// ===============================================Question 09===============================
+// function calculate(h){
+//     const regular = 40;
+//     const rate = 12.00;
+//     let over =0;
+//     if(h>regular){
+//         const overHours = h-regular;
+//         over = overHours*rate
+
+//     }
+//     return over;
+// }
+// console.log(calculate(49))
+
+// ===============================================Question 10===============================
+// function currency(amount){
+//     const h1 =100;
+//     const t1 = 50;
+//     const u1 = 10;
+//     let note100=Math.floor(amount);
+//     let rem = (amount - note100) *100;
+//     let note50  =Math.floor(rem/t1);
+//     rem %= t1;
+//     let note10 = Math.floor(rem/u1)
+//     return {
+//         note100,
+//         note50,
+//         note10,
+//     }
+// }
+// console.log(currency(8))
+
+
+
+
+
+
+
+
+
+
+
+
+
 
